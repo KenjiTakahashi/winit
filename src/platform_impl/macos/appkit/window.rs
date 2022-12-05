@@ -213,7 +213,7 @@ extern_methods!(
 
         #[sel(sendEvent:)]
         pub unsafe fn sendEvent(&self, event: &NSEvent);
-    
+
         #[sel(addTabbedWindow:ordered:)]
         pub unsafe fn addTabbedWindow(&self, window: &NSWindow, ordered: isize);
 

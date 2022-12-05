@@ -1,3 +1,4 @@
+use std::mem;
 use std::ops::Deref;
 
 use dispatch::Queue;
